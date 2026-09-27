@@ -23,7 +23,6 @@
   <a href="#-features">Features</a> •
   <a href="#-screenshots">Screenshots</a> •
   <a href="#-database-design">Database</a> •
-  <a href="#-getting-started">Getting Started</a> •
   <a href="#-project-structure">Structure</a>
 </p>
 
@@ -158,39 +157,11 @@ Database **`Anya_Forger`** — **21 tables** in **3NF**, with **30 foreign-key r
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-- [XAMPP](https://www.apachefriends.org) with **PHP 8.0+** and **MySQL / MariaDB**
-
-### Installation
-1. **Start the servers:** open the XAMPP Control Panel and start **Apache** and **MySQL**.
-2. **Copy the app:** copy the **`src`** folder into `C:\xampp\htdocs\` and rename it to **`akatsuki`**, so you have `C:\xampp\htdocs\akatsuki\index.php`.
-3. **Create the database:** open http://localhost/phpmyadmin → **Import** → choose **`database/setup_database.sql`** → **Import**.
-   This creates the `Anya_Forger` database with sample data.
-   ⚠️ The script replaces the database if it already exists.
-4. **Open the site:** go to **http://localhost/akatsuki/**
-
-### Configuration
-Database credentials are in [`src/db.php`](src/db.php). The default is XAMPP's `root` user with no password; change the four values at the top of the file if yours differ.
-
-### Sample accounts
-All sample accounts use the password **`password`**.
-
-| Role | Email |
-|------|-------|
-| 📖 Reader | `user@example.com` |
-| 🎨 Artist | `artist@example.com` |
-
-> Uploaded images (covers, chapter pages, emojis, fan art, guides) are saved in an `assets/` folder inside the app. It is created automatically on first upload and is not part of this repository.
-
----
-
 ## 🗂️ Project Structure
 
 ```text
 Akatsuki-comic-management-system/
-├── src/                          # the web application — copy this into htdocs
+├── src/                          # the web application
 │   ├── db.php                    # database connection & session
 │   ├── functions.php             # shared helpers (auth, coins, rendering)
 │   ├── header.php, footer.php    # page layout
@@ -234,7 +205,7 @@ Akatsuki-comic-management-system/
 | **Backend** | PHP 8 with PDO |
 | **Database** | MySQL / MariaDB |
 | **Frontend** | HTML5 · CSS3 · vanilla JavaScript |
-| **Local server** | XAMPP (Apache + MySQL) |
+| **Development environment** | XAMPP (Apache + MySQL) |
 | **Design** | ER/EER modelling · relational schema · 3NF normalisation |
 
 ---
