@@ -1,0 +1,20 @@
+# Normalise line endings for text files
+* text=auto eol=lf
+
+*.php  text eol=lf
+*.js   text eol=lf
+*.css  text eol=lf
+*.sql  text eol=lf
+*.md   text eol=lf
+*.svg  text eol=lf
+
+# Binary files: never convert or diff
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.pdf  binary
+
+# Keep documentation out of GitHub's language statistics
+docs/** linguist-documentation
