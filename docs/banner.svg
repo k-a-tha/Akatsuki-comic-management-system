@@ -41,11 +41,19 @@
   <text x="982" y="104" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="800" fill="#1a1025">NEW!</text>
 
   <!-- title -->
-  <text x="80" y="140" font-family="Impact, Haettenschweiler, 'Arial Black', 'Segoe UI', sans-serif"
+  <text x="80" y="128" font-family="Impact, Haettenschweiler, 'Arial Black', 'Segoe UI', sans-serif"
         font-size="84" font-weight="900" fill="#fafafa" letter-spacing="3">AKATSUKI</text>
-  <rect x="84" y="160" width="120" height="7" fill="#e11d48"/>
-  <text x="84" y="206" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+  <rect x="84" y="146" width="120" height="7" fill="#e11d48"/>
+  <text x="84" y="190" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
         font-size="26" font-weight="600" fill="#fda4af">Comic Management System</text>
-  <text x="84" y="244" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
-        font-size="17" fill="#d4d4d8" letter-spacing="1.5">READ · RATE · PREDICT · CREATE  —  PHP · MYSQL · JAVASCRIPT</text>
+  <text x="84" y="226" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+        font-size="16" fill="#d4d4d8" letter-spacing="1.5">READ · RATE · PREDICT · CREATE</text>
+  <!-- language chips -->
+  <g font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">
+    <rect x="84"  y="256" width="62"  height="28" rx="14" fill="#777BB4"/><text x="115" y="275" fill="#ffffff">PHP</text>
+    <rect x="154" y="256" width="84"  height="28" rx="14" fill="#4479A1"/><text x="196" y="275" fill="#ffffff">MySQL</text>
+    <rect x="246" y="256" width="112" height="28" rx="14" fill="#F7DF1E"/><text x="302" y="275" fill="#1a1025">JavaScript</text>
+    <rect x="366" y="256" width="76"  height="28" rx="14" fill="#E34F26"/><text x="404" y="275" fill="#ffffff">HTML</text>
+    <rect x="450" y="256" width="64"  height="28" rx="14" fill="#1572B6"/><text x="482" y="275" fill="#ffffff">CSS</text>
+  </g>
 </svg>
