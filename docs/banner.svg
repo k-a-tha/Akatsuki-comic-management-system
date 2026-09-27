@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1025"/>
+      <stop offset="1" stop-color="#2b0f1c"/>
+    </linearGradient>
+    <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="7" cy="7" r="2.2" fill="#e11d48" fill-opacity="0.22"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="dotmask"><rect width="1280" height="320" fill="url(#fade)"/></mask>
+  </defs>
+
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <!-- halftone dots fading in from the right -->
+  <rect width="1280" height="320" fill="url(#dots)" mask="url(#dotmask)"/>
+
+  <!-- comic panels (right) -->
+  <g transform="translate(900 44)" stroke="#fafafa" stroke-width="4" stroke-linejoin="round">
+    <rect x="0"   y="0"   width="150" height="112" fill="#e11d48"/>
+    <rect x="164" y="0"   width="150" height="112" fill="#f59e0b"/>
+    <rect x="0"   y="126" width="314" height="106" fill="#1f1530"/>
+    <!-- panel 1: speech bubble -->
+    <path d="M26 30 h98 a14 14 0 0 1 14 14 v26 a14 14 0 0 1 -14 14 h-58 l-18 16 v-16 h-22 a14 14 0 0 1 -14 -14 v-26 a14 14 0 0 1 14 -14 z" fill="#fafafa" stroke="#1a1025" stroke-width="3"/>
+    <!-- panel 2: star burst -->
+    <path d="M239 22 l10 22 24 -6 -12 21 20 14 -24 5 3 24 -21 -12 -21 12 3 -24 -24 -5 20 -14 -12 -21 24 6 z" fill="#fafafa" stroke="#1a1025" stroke-width="3"/>
+    <!-- panel 3: bar chart = rankings -->
+    <g stroke="none">
+      <rect x="40"  y="176" width="34" height="38" fill="#f59e0b"/>
+      <rect x="92"  y="150" width="34" height="64" fill="#e11d48"/>
+      <rect x="144" y="164" width="34" height="50" fill="#a78bfa"/>
+    </g>
+    <g stroke="none" fill="#fafafa" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-weight="800">
+      <text x="210" y="176" font-size="15">TOP 5</text>
+      <text x="210" y="200" font-size="15">THIS WEEK</text>
+    </g>
+  </g>
+  <text x="982" y="104" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="800" fill="#1a1025">NEW!</text>
+
+  <!-- title -->
+  <text x="80" y="140" font-family="Impact, Haettenschweiler, 'Arial Black', 'Segoe UI', sans-serif"
+        font-size="84" font-weight="900" fill="#fafafa" letter-spacing="3">AKATSUKI</text>
+  <rect x="84" y="160" width="120" height="7" fill="#e11d48"/>
+  <text x="84" y="206" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+        font-size="26" font-weight="600" fill="#fda4af">Comic Management System</text>
+  <text x="84" y="244" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+        font-size="17" fill="#d4d4d8" letter-spacing="1.5">READ · RATE · PREDICT · CREATE  —  PHP · MYSQL · JAVASCRIPT</text>
+</svg>
