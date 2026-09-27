@@ -1,0 +1,8 @@
+# Uploaded and generated content
+assets/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
