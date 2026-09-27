@@ -80,3 +80,7 @@ CSE370-group-7/
 - Password confirmation matching
 
 
+
+## Final version (Akatsuki)
+The complete, working project is in the [`akatsuki/`](akatsuki/) folder — code, `setup_database.sql`, demo images and screenshots.
+See [`akatsuki/README.md`](akatsuki/README.md) for setup steps, demo accounts, screenshots and the final database schema.
