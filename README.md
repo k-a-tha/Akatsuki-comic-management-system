@@ -26,6 +26,9 @@
   <a href="#-project-structure">Structure</a>
 </p>
 
+> [!IMPORTANT]
+> **Portfolio showcase.** This repository presents the design and implementation of Akatsuki for portfolio and academic review only. It is not intended for installation, deployment or reuse, so setup instructions are intentionally omitted. The source code is shared for viewing purposes only. See the [License](#-license) for full terms.
+
 ---
 
 ## 🧭 Overview
