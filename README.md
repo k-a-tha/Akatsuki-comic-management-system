@@ -15,7 +15,6 @@
 <p align="center">
   A database-driven web platform that connects <b>comic artists</b> and <b>readers</b> —
   read, rate, predict the next chapter, earn coins, join communities and watch artists stream live.<br>
-  Built for <b>CSE370: Database Systems</b>.
 </p>
 
 <p align="center">
